@@ -24,10 +24,11 @@ export class Amazing {
     let a = 1
     let b = 0
     if (a > 2) {
-      b = a + 100
+      console.log("A")
     } else {
-      b = a - 100
+      console.log("B")
     }
+    console.log("C")
     return a * b
   }
 }
