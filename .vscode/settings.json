@@ -1,0 +1,7 @@
+{
+    "editor.fontSize": 14,
+    "workbench.colorTheme": "Solarized Dark",
+    "window.autoDetectColorScheme": true,
+    "debug.node.autoAttach": "off",
+    "jest.pathToConfig": "./jest.config.js",
+}

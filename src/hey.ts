@@ -1,0 +1,33 @@
+import PdfKit from "pdfkit"
+
+export class AnotherClass {
+  foo: PDFKit.PDFData
+  constructor(foo: PDFKit.PDFData) {
+    this.foo = foo
+  }
+
+  bar() {
+    console.log(this.foo)
+  }
+}
+
+export class Amazing {
+
+  a: integer
+
+  constructor() {
+    this.a = 2
+  }
+
+  barFunction(): integer {
+    console.log("Hey from bar")
+    let a = 1
+    let b = 0
+    if (a > 2) {
+      b = a + 100
+    } else {
+      b = a - 100
+    }
+    return a * b
+  }
+}
