@@ -27,7 +27,12 @@
       },
       "console": "integratedTerminal",
       "internalConsoleOptions": "neverOpen",
-      "disableOptimisticBPs": true
+      "disableOptimisticBPs": true,
+      "smartStep": true, 
+      "skipFiles": [
+        "<node_internals>/**",
+        "node_modules/**"
+      ]
     },
   ]
 }
